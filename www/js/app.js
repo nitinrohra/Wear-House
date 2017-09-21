@@ -38,6 +38,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         
     
   })
+  .state('tips', {
+    url: '/tips',
+    
+        templateUrl: 'templates/tips.html',
+        controller: 'ChatsCtrl'
+        
+    
+  })
 
   // setup an abstract state for the tabs directive
     .state('tab', {
